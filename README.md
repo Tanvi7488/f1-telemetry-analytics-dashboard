@@ -1,3 +1,24 @@
+Add dashboard screenshots to README
+# 🏎️ F1 Telemetry Analytics Dashboard
+
+An interactive Streamlit dashboard for exploring real Formula 1 telemetry —
+fastest laps, speed traces, throttle/brake behavior, gear shifts, and
+head-to-head driver comparisons.
+
+## Dashboard Preview
+
+### Main Dashboard
+![Main Dashboard](screenshots/dashboard-home.png)
+
+### Driver Comparison
+![Driver Comparison](screenshots/driver-comparison.png)
+
+### Lap Time Analysis
+![Lap Time Analysis](screenshots/lap-times.png)
+
+## Features
+
+...
 # 🏎️ F1 Telemetry Analytics Dashboard
 
 An interactive Streamlit dashboard for exploring real Formula 1 telemetry —
