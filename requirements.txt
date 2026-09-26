@@ -1,0 +1,12 @@
+# Core dependencies for the F1 Telemetry Analytics Dashboard.
+#
+# pandas is capped below 3.0 deliberately: during development, a
+# pandas 3.x build in the test environment was found to mis-parse
+# certain pd.to_timedelta(..., unit="s") calls on whole-number float
+# input. This project was built and tested against the pandas 2.x
+# series, so we pin against 3.x until it's been explicitly verified.
+streamlit>=1.32.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+numpy>=1.24.0,<3.0.0
+plotly>=5.18.0,<6.0.0
+fastf1>=3.3.0,<4.0.0
